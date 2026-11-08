@@ -1,0 +1,28 @@
+{
+    "inbounds": [
+        {
+            "port": 10000,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "ba0e3984-ccc9-48a3-8074-b2f507f41ce8",
+                        "flow": ""
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/@nkka404"
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
